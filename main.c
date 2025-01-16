@@ -78,7 +78,7 @@ int main()
                 getchar();
                 getchar();
                 system("cls");
-                printf("Zmeczony budzisz sie nastepnego dnia, dzien jak co dzien z rana jesz sniadanie, wypijasz kawe i sluchasz porannych\nwiadomosci w radiu.\n\n *Witajcie ARANVALE! Dzis jest 11 marca 1982r. Pogoda dzis pozwoli nieco odpoczac, bedzie poch-\nmurno, ale nadal cieplo.\n[ksshshsht..] !WIADOMOSC Z OSTATNIEJ CHWILI! W Aranvale wykryto pierwszy przypadek zachorowania z wody, wystepuja te\nsame objawy co u chorych w Tramonto. Podaje objawy.... dusznosc, wysypka, ból g³owy, gor¹czka. Jesli ktos zauwazy u sie-\nbie badz u kogos z rodziny takie symptomy, nalezy zglosic sie do lekarza. On poinstruuje co i jak. Wazne jest aby wode\nprzed spozyciem przegotowac, aby zmniejszyc ryzyko zarazenia. [ksshshsht..]\n\nTo tyle na dzis! AranRadio zyczy pogodnego dnia!");
+                printf("Zmeczony budzisz sie nastepnego dnia, dzien jak co dzien z rana jesz sniadanie, wypijasz kawe i sluchasz porannych\nwiadomosci w radiu.\n\n *Witajcie ARANVALE! Dzis jest 11 marca 1982r. Pogoda dzis pozwoli nieco odpoczac, bedzie poch-\nmurno, ale nadal cieplo.\n[ksshshsht..] !WIADOMOSC Z OSTATNIEJ CHWILI! W Aranvale wykryto pierwszy przypadek zachorowania z wody, wystepuja te\nsame objawy co u chorych w Tramonto. Podaje objawy.... dusznosc, wysypka, bÃ³l gÅ‚owy, gorÅ¡czka. Jesli ktos zauwazy u sie-\nbie badz u kogos z rodziny takie symptomy, nalezy zglosic sie do lekarza. On poinstruuje co i jak. Wazne jest aby wode\nprzed spozyciem przegotowac, aby zmniejszyc ryzyko zarazenia. [ksshshsht..]\n\nTo tyle na dzis! AranRadio zyczy pogodnego dnia!");
                 printf("\nW panice o zdrowie dzwonisz do znajomego posla. \n\n\n -Hej.. wiem, ze pewnie to poufne informacje, ale czy wiesz moze, kto to jest tym zarazonym zero?\n-Hej, ogolnie to jest scisle poufna informacja, ale dobrze, powiem... zachorowal sam Krol Antonio, jest z nim zle. Tylko nikomu nic nie mow, wiesz jak to jest.. pewnie to jest zasadzka Krasnogradu na Tramonto a Krol oberwal rykoszetem.\n-Jasne, w porzadku. Buzia na klodke!\n-Jedynie co ci moge doradzic, zacznij gromadzic zapasy do schronu, nie da sie przewidziec co sie wydarzy. I zdrowka tam.. Trzymaj sie!\n-Dzieki ci! Tez sie trzymaj!\n\n\n Czules ze cos jest nie tak, ale zgodnie z sugestia zaczynasz gromadzic zapasy. Cos ci podpowiada, zeby zlamac obietnice i rozpowiedziec wiesci.");
                 char pyt2;
                 pyt2 = 'n';
@@ -149,7 +149,7 @@ int main()
                 case 't': {
                     srand(time(NULL));
                     int los = rand() % 10;
-                    if (los > 0) {
+                    if (los > 5) {
                         printf("\nMomentalnie odczules objawy choroby, o ktorej bylo tak glosno. Twoj stan momentalnie sie pogarsza, probujesz wezwac pomoc, ale nie dociera ona na czas.\n\n Umarles! Koniec gry!");
                         printf("\nNacisnij ENTER, aby zakonczyc...");
                         getchar();
@@ -910,12 +910,12 @@ int main()
                 switch (charTra)
                 {
                 case 1: {
-                    printf("\n\nWitaj w Krolestwie Tramonto. Jako rybak jestes zobowiazany do kilkudniowych wypraw na glebokie morze. Twoje krolestwo\njest jednym z mrozniejszych, polozone nad owym morzem. Zycie tutaj toczy sie powolnie i z dnia na dzien. Nie panuje\nwielki podzial spoleczenstwa, a wszyscy w wiekszym lub mniejszym stopniu zyja na podobnym poziomie. Mimo braku narze-\nkania na krolestwo jako indywidualne, nie mozna przeoczyc napietej atmosfery, ktora aktualnie panuje w Europie. Masz na-\ndzieje, ze ten rok bedzie lepszy niz wszystkie poprzednie pod tym wzglêdem.");
+                    printf("\n\nWitaj w Krolestwie Tramonto. Jako rybak jestes zobowiazany do kilkudniowych wypraw na glebokie morze. Twoje krolestwo\njest jednym z mrozniejszych, polozone nad owym morzem. Zycie tutaj toczy sie powolnie i z dnia na dzien. Nie panuje\nwielki podzial spoleczenstwa, a wszyscy w wiekszym lub mniejszym stopniu zyja na podobnym poziomie. Mimo braku narze-\nkania na krolestwo jako indywidualne, nie mozna przeoczyc napietej atmosfery, ktora aktualnie panuje w Europie. Masz na-\ndzieje, ze ten rok bedzie lepszy niz wszystkie poprzednie pod tym wzglÄ™dem.");
                     printf("\nJest 10 marca. Dzien jak co dzien, zbierasz sie do wyplyniecia na morze. Zabierasz ze soba potrzebny asortyment\ntaki jak np. sieci na ryby, paliwo do kutra, skrzynki na zdobycze i jakis noz, bo lubisz czasem taka swieza rybke zjesc.\nNacisnij ENTER, aby kontynuowac...");
                     getchar();
                     getchar();
                     system("cls");
-                    printf("Wyplywasz na wode, jednak zauwazasz, ze ma ona podejrzanie chemiczny zapach. Ponadto widzisz, ze nie jest ona przej-\nrzysta jak zawsze, wyglada jakby zostal spuszczony jakis olej albo benzyna. Nie stanowi to jednak powodu do zmartwieñ,\nbo ryby ktore wyciagasz z sieci nadal sa zywe, tak jak zawsze i zgodnie z tradycja bierzesz jedna rybe na sprobowanie.\n\n");
+                    printf("Wyplywasz na wode, jednak zauwazasz, ze ma ona podejrzanie chemiczny zapach. Ponadto widzisz, ze nie jest ona przej-\nrzysta jak zawsze, wyglada jakby zostal spuszczony jakis olej albo benzyna. Nie stanowi to jednak powodu do zmartwieÅ„,\nbo ryby ktore wyciagasz z sieci nadal sa zywe, tak jak zawsze i zgodnie z tradycja bierzesz jedna rybe na sprobowanie.\n\n");
                     char pyt1;
                     pyt1 = 't';
                     do {
